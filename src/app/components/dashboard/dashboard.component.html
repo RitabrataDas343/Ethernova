@@ -1,0 +1,27 @@
+<main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="huehue display-3">Ethernova - Democracy on Blockchain</h1>
+            <p class="happy">{{jumbotron_description}}</p>
+            <p class="happy"><a class="btn btn-success btn-lg" routerLink="/proposals" role="button">View all proposals &raquo;</a></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <a *ngFor="let proposal of proposals" class="col-lg-4">
+                <div class="module proposal">
+                    <h2>{{proposal.name}}</h2>
+                    <p>Short proposal description. </p>
+                    <p><a class="btn btn-primary" routerLink="/detail/{{proposal.id}}" role="button">View details &raquo;</a></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+
+
+</main>

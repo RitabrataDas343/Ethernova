@@ -1,0 +1,25 @@
+<div class="container">
+    <h1 class="ethtext display-4 bg-success text-white">Ethereum proposals</h1>
+
+    <div class="row">
+        <li *ngFor="let proposal of proposals">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-primary">{{proposal.category.name}}</strong>
+                            <h3 class="mb-0">
+                                <a routerLink="/detail/{{proposal.id}}">{{proposal.name}}</a>
+                            </h3>
+                            <p class="card-text mb-auto">{{proposal.description}}</p>
+                            <a routerLink="/detail/{{proposal.id}}">View details</a>
+                        </div>
+                    </div>
+                </div>
+                <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+            </div>
+        </li>
+    </div>
+
+
+</div>

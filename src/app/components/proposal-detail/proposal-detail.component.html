@@ -1,0 +1,40 @@
+<main role="main" class="container">
+    <hr class="mb-4">
+    <div class="d-flex align-items-center p-3 my-3 bg-success rounded box-shadow">
+        <img class="mr-3" src="https://getbootstrap.com/assets/brand/bootstrap-outline.svg" alt="" width="48" height="48">
+        <div class="lh-100">
+            <h6 class="mb-0 text-white lh-100">{{proposal.name}} <span class="badge badge-secondary">{{proposal.category.name}}</span></h6>
+            <small class="text-white">{{proposal.description}}</small>
+        </div>
+    </div>
+
+    <div class="my-3 p-3 bg-white rounded box-shadow">
+        <h6 class="border-bottom border-gray pb-2 mb-0">Do you agree with the proposed proposal for "{{proposal.name}} ?"</h6>
+        <div class="media text-muted pt-3">
+            <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+            <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <strong class="text-dark">Yes</strong>
+                    <a routerLink="/detail/{{proposal.id}}/vote">More Details</a>
+                </div>
+                <span class="d-block">Yes, I do agree. Here an extendend description of the yes option implications would be placed.</span>
+            </div>
+        </div>
+        <div class="media text-muted pt-3">
+            <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+            <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <strong>No</strong>
+                    <a routerLink="/detail/{{proposal.id}}/vote">More Details</a>
+                </div>
+                <span class="d-block">No, I do not agree. Here an extendend description of the no option implications would be placed.</span>
+            </div>
+        </div>
+    </div>
+
+
+    <app-proposal-form></app-proposal-form>
+
+    <app-recent-updates></app-recent-updates>
+
+</main>
