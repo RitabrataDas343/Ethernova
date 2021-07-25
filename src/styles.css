@@ -1,0 +1,38 @@
+.navbar {
+    background-color: rgb(0, 77, 112);
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.jumbotron {
+    margin-top: 30px;
+}
+
+.ethtext {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.jimmy {
+    padding: 50px;
+    margin-top: 40px;
+    border: 2px solid rgb(0, 77, 112);
+}
+
+.contact {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.happy {
+    text-align: center;
+}
+
+.huehue {
+    font-size: 60px;
+}
