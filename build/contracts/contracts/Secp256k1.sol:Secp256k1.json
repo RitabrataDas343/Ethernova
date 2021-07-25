@@ -1,0 +1,22 @@
+{
+  "contractName": "/contracts/Secp256k1.sol:Secp256k1",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.4.18+commit.9cf6e910\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Secp256k1.sol\":\"Secp256k1\"},\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/ECCMath.sol\":{\"keccak256\":\"0xd8aeb2c8db18194873950ab91a5ef1253113891e54b5877493a869c3eb2c5b22\",\"urls\":[\"bzzr://8e24ad2e43bc34bc32386f545ee9e3e40899b0b9aff82467c937f95bc272d1f4\"]},\"project:/contracts/Secp256k1.sol\":{\"keccak256\":\"0xb470d4c81d5bdf5c1fd8a7be77b35643da61871b2bb9256c3208f69081755bd1\",\"urls\":[\"bzzr://600b9378a104e21dcb820b02ab0ef0884f5114f9dabb0612b617c0c4b646a667\"]}},\"version\":1}",
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a7230582049f326384ddb6969654861e88fa60cbf1711800dde1e1d9ae758a14339c4f9050029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a7230582049f326384ddb6969654861e88fa60cbf1711800dde1e1d9ae758a14339c4f9050029",
+  "sourceMap": "51:9949:3:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "51:9949:3:-;;;;;",
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.2",
+  "updatedAt": "2021-07-25T14:21:09.383Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
